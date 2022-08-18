@@ -78,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
       onPressed: () {
         if (formKey.currentState!.validate()) {
           formKey.currentState?.save();
-          print('This $email amd $password');
+          print('This $email and $password');
         }
       },
       child: const Text('Log in'),
